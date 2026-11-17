@@ -10,6 +10,10 @@
 
 ## `> whoami`
 
+<img align="right" width="120" src="assets/chetan-matrix-mascot.png" alt="Chetan's Matrix developer mascot" />
+
+
+
 Hey! I'm **Chetan Singh**, a Computer Science student specializing in **Artificial Intelligence and Machine Learning**.
 
 I enjoy understanding how things work, solving problems with code, and turning ideas into useful projects. Right now, I'm strengthening my fundamentals in C++ and exploring software development, web technologies, and AI/ML.
