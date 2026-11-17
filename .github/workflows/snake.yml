@@ -1,10 +1,11 @@
 name: Generate Matrix Contribution Snake
 
 on:
-  # Refresh the animation once a day (00:23 UTC).
+  push:
+    branches:
+      - main
   schedule:
     - cron: "23 0 * * *"
-  # Allow a manual refresh from the Actions tab.
   workflow_dispatch:
 
 permissions:
@@ -18,38 +19,19 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
       - name: Generate light and dark contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: karkichtn
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%2300AA33&color_dots=%23E8FFE8,%23B7FFB7,%2370E070,%2324B324,%23006600
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300FF41&color_dots=%23001100,%23003300,%23006600,%2300AA00,%2300FF41
 
       - name: Publish generated SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          mkdir -p "$RUNNER_TEMP/snake-output"
-          cd "$RUNNER_TEMP/snake-output"
-
-          git init --initial-branch=output
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          cp -R "$GITHUB_WORKSPACE/dist/." .
-          git add --all
-
-          if git diff --cached --quiet; then
-            echo "Snake files are unchanged; nothing to publish."
-            exit 0
-          fi
-
-          git commit -m "Update contribution snake"
-          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push --force origin output
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
