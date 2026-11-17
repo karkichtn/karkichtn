@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/matrix-header.gif" alt="Animated Matrix code rain banner with Chetan Singh's name" width="100%" />
+  <img src="assets/matrix-header-with-mascot.gif" alt="Animated Matrix code rain banner with Chetan Singh's name" width="100%" />
   <br />
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=700&color=00FF41&center=true&vCenter=true&width=850&height=55&lines=%3E+CSE+%28AI+%26+ML%29+Student;%3E+Building+projects+and+learning+by+doing;%3E+C%2B%2B+%7C+Python+%7C+JavaScript;%3E+Exploring+software+development+and+AI%2FML;%3E+Turning+ideas+into+code" alt="Animated Matrix-style introduction" />
   <br />
@@ -10,7 +10,6 @@
 
 ## `> whoami`
 
-<img align="right" width="120" src="assets/chetan-matrix-mascot.png" alt="Chetan's Matrix developer mascot" />
 
 
 
