@@ -56,7 +56,8 @@ I enjoy understanding how things work, solving problems with code, and turning i
 </p>
 
 <p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=karkichtn&hide_border=true&background=050505&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=B7FFB7&dates=75A875" alt="GitHub contribution streak" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=karkichtn&hide_border=true&background=050505&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=B7FFB7&dates=75A875" alt="GitHub contribution streak" />
+
 </p>
 
 <sub>Stats and language cards are generated daily and stored in this repository. They use public GitHub data.</sub>
