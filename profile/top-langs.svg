@@ -158,7 +158,7 @@
           data-testid="lang-progress"
           x="152.01"
           y="0"
-          width="28.06"
+          width="28.05"
           height="8"
           fill="#3178c6"
         />
@@ -166,7 +166,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="180.07"
+          x="180.06"
           y="0"
           width="25.51"
           height="8"
@@ -176,7 +176,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="205.57999999999998"
+          x="205.57"
           y="0"
           width="19.39"
           height="8"
@@ -186,9 +186,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="224.96999999999997"
+          x="224.95999999999998"
           y="0"
-          width="16.43"
+          width="16.45"
           height="8"
           fill="#663399"
         />
@@ -196,7 +196,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.39999999999998"
+          x="241.40999999999997"
           y="0"
           width="15.43"
           height="8"
@@ -206,7 +206,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.82999999999998"
+          x="246.83999999999997"
           y="0"
           width="13.16"
           height="8"
@@ -219,7 +219,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 36.86%
+        Jupyter Notebook 36.85%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -254,7 +254,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#663399" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS 6.57%
+        CSS 6.58%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
